@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+#container{
+    width: 500px;
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list{
+    margin: 15px 0;
+}
+.list >li{
+    background-color: blueviolet;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+h1{
+    color:white;
+    background-color: rgb(241, 127, 106);
+    display: flex;
+    justify-content: center;
+    border: solid 3px blue;
+    border-radius: 7px;
+    font-size: 2.5rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+button{
+    background-color: coral;
+    color: aqua;
+    border-radius: 15px;
+    width: 60%;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
